@@ -1,50 +1,86 @@
 body {
   margin: 0;
   padding: 0;
+  font-weight: 200;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+dt {
+  color: #224;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  color: #224;
+}
+
 nav {
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   margin: 0;
-  padding: 5px;
-  background-color: #446;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #88A;
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
-  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
 }
 
 nav li {
   display: inline;
-  float: right;
+  margin: 0;
+  padding: 0.8em 1em 0.5em 1em;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
+  color: #223;
+  vertical-align: top;
 }
 
-nav a:hover {
-  background-color: #223;
+nav li:hover {
+  background-color: #eee;
 }
 
+main {
+  padding: 2em 3em;
+  line-height: 1.1;
+  max-width: 1000px;
+  margin: auto;
+}
+
+pre {
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin: auto;
+  overflow: auto;
+  padding: 0.5em;
+  width: 90%;
+}
 
 .current {
-  background-color: #558;
-  color: white;
-  
+  border-bottom: 1px solid #eef;
 }
 
+.light-sans {
+  color: #aaa;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.light-italic {
+  color: #777;
+  font-style: italic;
+}
 
 /**
  * Syntax Highlighting section

@@ -3,6 +3,9 @@ layout: default
 section: blog
 ---
 
-{% for item in site.categories.blog limit:1000 %}
-  <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} </a>
+<dl>
+{% for item in site.categories.blog | sort: `step` %}
+  <dt><a href='{{site.baseurl}}{{item.url}}'>{{item.step}}. {{item.title}}</a></dt>
+  <dd class='light-italic'>{{item.description}}</dd>
 {% endfor %}
+</dl>
