@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -14,13 +19,14 @@ nav {
 
 nav ul {
   list-style-type: none;
-  
+  position: relative;
+  right: 2em; 
 }
 
 nav ul li {
   display: inline;
   padding: 5px;
-  background-color: #aaeeff;
+  background-color: #112233;
 }
 
 
