@@ -1,0 +1,8 @@
+---
+layout: default
+section: blog
+---
+
+{% for item in site.categories.blog limit:1000 %}
+  <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} </a>
+{% endfor %}
