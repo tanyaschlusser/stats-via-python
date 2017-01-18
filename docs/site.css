@@ -13,20 +13,29 @@ nav {
   font-weight: 600;
   margin: 0;
   padding: 0;
-  width: 100%;
-  background-color: #111;
 }
 
 nav ul {
   list-style-type: none;
-  position: relative;
-  right: 2em; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #445;
 }
 
-nav ul li {
+nav li {
   display: inline;
   padding: 5px;
   background-color: #112233;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #223;
 }
 
 
