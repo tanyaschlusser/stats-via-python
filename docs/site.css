@@ -27,11 +27,13 @@ nav ul {
 nav li {
   display: inline;
   padding: 5px;
+  margin: 5px;
   background-color: #112233;
 }
 
 nav a {
   text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
