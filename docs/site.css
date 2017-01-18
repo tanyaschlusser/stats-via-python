@@ -12,7 +12,8 @@ nav {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
   margin: 0;
-  padding: 0;
+  padding: 5px;
+  background-color: #446;
 }
 
 nav ul {
@@ -21,14 +22,11 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #445;
 }
 
 nav li {
   display: inline;
-  padding: 5px;
-  margin: 5px;
-  background-color: #112233;
+  float: right;
 }
 
 nav a {
