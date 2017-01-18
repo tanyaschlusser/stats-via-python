@@ -4,7 +4,7 @@ section: blog
 ---
 
 <dl>
-{% for item in site.categories.blog | sort: `step` %}
+{% for item in site.categories.blog | sort:"step" %}
   <dt><a href='{{site.baseurl}}{{item.url}}'>{{item.step}}. {{item.title}}</a></dt>
   <dd class='light-italic'>{{item.description}}</dd>
 {% endfor %}
