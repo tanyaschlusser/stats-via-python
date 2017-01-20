@@ -48,8 +48,8 @@ title: 'Statistics via Python'
     function addTip() {
       var tip = document.getElementById('tip-amt');
       var cents = parseInt(tip.getAttribute('cents'));
-      tip.setAttribute('cents', cents + 25);
-      tip.setAttribute('value', ((cents + 25) / 100).toFixed(2));
+      tip.setAttribute('cents', cents + 50);
+      tip.setAttribute('value', ((cents + 50) / 100).toFixed(2));
       updateTip();
       if (cents > 999) {
         tip.setAttribute('size', "5");
@@ -59,8 +59,8 @@ title: 'Statistics via Python'
       var tip = document.getElementById('tip-amt');
       var cents = parseInt(tip.getAttribute('cents'));
       if (cents > 0) {
-        tip.setAttribute('cents', cents - 25);
-        tip.setAttribute('value', ((cents - 25) / 100).toFixed(2));
+        tip.setAttribute('cents', cents - 50);
+        tip.setAttribute('value', ((cents - 50) / 100).toFixed(2));
         updateTip();
       }
     }
