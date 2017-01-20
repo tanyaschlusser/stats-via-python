@@ -30,4 +30,43 @@ title: 'Statistics via Python'
   {% if page.url == "/index.html" %}<h1>{{site.sitename}}</h1>{% endif %}
     {{content}}
   </main>
+
+  <footer style="text-align:center;color:#aaa">
+    <small class="light-sans">
+      Copyright &copy; 2017 Tanya Schlusser. Attribution requested please.
+    <div>
+      <button type="button" title="subtract" onclick="subtractTip()">-</button>
+      <a id="send-tip" target="you-love-tanya" href="https://cash.me/$tanyaschlusser">
+        Or tip me? <span style="color:#b06">♥</span>
+        $<input id="tip-amt" type="text" readonly value="0.50" cents="50" size="4" style="border:none;font:inherit"/>
+      </a>
+      <button title="add" type="button" onclick="addTip()">+</button>
+    </div>
+    </small>
+  </footer>
+  <script>
+    function addTip() {
+      var tip = document.getElementById('tip-amt');
+      var cents = parseInt(tip.getAttribute('cents'));
+      tip.setAttribute('cents', cents + 25);
+      tip.setAttribute('value', ((cents + 25) / 100).toFixed(2));
+      updateTip();
+      if (cents > 999) {
+        tip.setAttribute('size', "5");
+      }
+    }
+    function subtractTip() {
+      var tip = document.getElementById('tip-amt');
+      var cents = parseInt(tip.getAttribute('cents'));
+      if (cents > 0) {
+        tip.setAttribute('cents', cents - 25);
+        tip.setAttribute('value', ((cents - 25) / 100).toFixed(2));
+        updateTip();
+      }
+    }
+    function updateTip() {
+      var tip = document.getElementById('tip-amt').getAttribute('value');
+      document.getElementById('send-tip').setAttribute('href', 'https://cash.me/$tanyaschlusser/' + tip);
+    }
+  </script>
 </body>
