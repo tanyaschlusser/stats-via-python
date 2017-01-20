@@ -2,8 +2,8 @@
 published: true
 category: blog
 layout: blog
-splash: "https://c1.staticflickr.com/6/5789/21076532090_b878df9165_k.jpg"
-description: "Post description. This is a short post."
+title: "Installation"
+description: "Installation and background information."
 step: 0
 ---
 
