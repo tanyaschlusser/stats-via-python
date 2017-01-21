@@ -111,6 +111,11 @@ footer {
   font-style: italic;
 }
 
+.inline-image {
+  height:1.6em;
+  vertical-align:middle;
+}
+
 
 
 /**
