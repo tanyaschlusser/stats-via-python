@@ -88,9 +88,12 @@ pre {
 
 
 footer {
-  height: 3rem;
+  height: 4.2rem;
   text-align: center;
 }
+  footer div {
+    padding: 0.42rem;
+  }
 
 
 .current {
