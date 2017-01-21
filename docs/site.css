@@ -11,10 +11,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6,
-dt {
+th {
   color: #224;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
+}
+
+th {
+  padding: 0.42rem 1rem 0.42rem 0;
+  text-align: left;
 }
 
 a {
