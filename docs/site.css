@@ -31,6 +31,14 @@ a:hover {
   color: #22a;
 }
 
+button {
+  background-color: #fff;
+  border-radius: 0.42rem;
+}
+button:hover {
+  box-shadow: 0px 0px 5px #22a;
+}
+
 nav {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -105,7 +113,7 @@ footer {
 }
 
 .light-sans {
-  color: #aaa;
+  color: #999;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
