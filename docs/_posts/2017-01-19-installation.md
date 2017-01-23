@@ -13,7 +13,7 @@ step: 0
 
 If you're going to do science or statistics with Python, especially if you're new to coding, Anaconda is the best way to go. It works on OSX, Windows, and Linux operating systems right out of the box, and comes bundled with the most popular libraries currently used for science.
 
-Anaconda is a commercial redistribution of Python plus numeric libraries. The vendor, Continuum Analytics, provides it for free to gain an audience, and then Anaconda contracts with businesses to maintain a consistent corporate Python environment. And you benefit.
+Anaconda is a commercial redistribution of Python plus numeric libraries. The vendor, Continuum Analytics, provides it for free to gain an audience, and then Anaconda contracts with businesses to maintain a consistent corporate Python environment. You benefit.
 
 
 ## Why Python?
