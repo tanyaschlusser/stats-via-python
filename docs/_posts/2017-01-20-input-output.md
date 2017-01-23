@@ -77,7 +77,7 @@ Press (`⇧ Shift`) + (`↵ Enter`) to render the Markdown.
 The rest of the the tutorial can be followed directly via the Jupyter notebook:
 
 <iframe
-  src="http://nbviewer.jupyter.org/github/tanyaschlusser/stats-via-python/blob/master/notebooks/input_output.ipynb"
+  src="https://nbviewer.jupyter.org/github/tanyaschlusser/stats-via-python/blob/master/notebooks/input_output.ipynb"
   style="width:120%;height:80vh;margin-left:-15%;">
 </iframe>
 
