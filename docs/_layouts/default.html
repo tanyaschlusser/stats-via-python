@@ -39,7 +39,7 @@ title: 'Statistics via Python'
       <a id="send-tip" target="you-love-tanya" href="https://cash.me/$tanyaschlusser/1.00">
         (or at least tip me?) <span style="color:#b06">♥</span>
       </a>
-      $<input id="tip-amt" type="text" readonly value="1.00" cents="100" size="4" style="border:none;font:inherit"/>
+      <input id="tip-amt" type="text" readonly value="$1.00" cents="100" size="5" style="border:none;font:inherit"/>
       <button title="add" type="button" onclick="addTip()">+</button>
     </div>
     </small>
@@ -49,10 +49,10 @@ title: 'Statistics via Python'
       var tip = document.getElementById('tip-amt');
       var cents = parseInt(tip.getAttribute('cents'));
       tip.setAttribute('cents', cents + 50);
-      tip.setAttribute('value', ((cents + 50) / 100).toFixed(2));
+      tip.setAttribute('value', '$' + ((cents + 50) / 100).toFixed(2));
       updateTip();
       if (cents > 999) {
-        tip.setAttribute('size', "5");
+        tip.setAttribute('size', "6");
       }
     }
     function subtractTip() {
@@ -60,7 +60,7 @@ title: 'Statistics via Python'
       var cents = parseInt(tip.getAttribute('cents'));
       if (cents > 0) {
         tip.setAttribute('cents', cents - 50);
-        tip.setAttribute('value', ((cents - 50) / 100).toFixed(2));
+        tip.setAttribute('value', '$' + ((cents - 50) / 100).toFixed(2));
         updateTip();
       }
     }
