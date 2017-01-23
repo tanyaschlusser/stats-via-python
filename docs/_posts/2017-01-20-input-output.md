@@ -13,7 +13,7 @@ This post demonstrates how to read and manipulate data from an Excel spreadsheet
 ## Start Jupyter
 
 1. Start the Anaconda navigator and click on the icon to launch Jupyter (looks like this:
-<img src="http://jupyter.org/assets/main-logo.svg" alt="Jupyter logo" class="inline-image"/>).
+<img src="https://jupyter.org/assets/main-logo.svg" alt="Jupyter logo" class="inline-image"/>).
 Jupyter is a web-based interface to Python that lets you preserve text, code, and images all in one
 single document. A new tab will open in your web browser. 
 <img style="float:right;padding:0 1rem 0 0" src="img/new-notebooks-python.png"/>
