@@ -23,7 +23,7 @@ single document. A new tab will open in your web browser.
 installed; that's why mine has multiple options.
 
 3. Another new tab will open. It contains a blank Jupyter notebook. You can change the name of the document
-at the top left. I renamed mine to `input_output`. It will be saved with the file extension  `*.pynb`
+at the top left. I renamed mine to `input_output`. It will be saved (with the file extension  `*.pynb`)
 as `input_output.ipynb`.
 
 
@@ -34,9 +34,12 @@ as `input_output.ipynb`.
 There will be an input cell at the top to type in, like this:
 <img style="width:80%" src="img/input-cell.png"/>
 
-To run code in a cell, press (`⇧ Shift`) + (`↵ Enter`) with the cursor in the cell.
-This makes a new cell to type in.
-You can also overwrite the original cell.
+To run code in it, type something like `print('hello')`, and then
+press (`⇧ Shift`) + (`↵ Enter`) with the cursor in the cell.
+This also makes a new cell to type in.
+It is OK to overwrite the original cell, but the result of all of the code that
+has been already executed will persist until you either shutdown and restart
+your notebook, or click on one of the Restart options in Kernel → Restart.
 To leave notes to yourself, either write comments in the code (below)
 or use Markdown for extended statements (next)
 
