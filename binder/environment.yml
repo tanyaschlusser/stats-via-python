@@ -1,0 +1,12 @@
+name: stats-via-python
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - seaborn
